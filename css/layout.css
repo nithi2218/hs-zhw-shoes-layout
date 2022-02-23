@@ -17,10 +17,30 @@
   height: 0;
   line-height: 0;
 }
-
+/*
 .clear {
   clear: both;
+}*/
+
+.wrapper {
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 10px 10px;
 }
+
+#sale {
+  grid-column: span 3;  
+}
+
+h2 {
+  grid-column: span 3;
+}
+
+#collections {
+  grid-column: span 2;
+}
+
+
 
 /* Positioning Classes */
 
